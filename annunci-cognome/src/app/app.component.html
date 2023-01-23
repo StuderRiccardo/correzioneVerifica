@@ -1,6 +1,6 @@
 <div>
-  <input type="text" > <label>nome</label> <br>
-  <input type="text" > <label>telefono</label> <br>
-  <input type="text" > <label>messagio</label> <br>
-  <button style="background-color: orange;"> invia</button>
+  <input type="text" #nome> <label>nome</label> <br>
+  <input type="text" #tele> <label>telefono</label> <br>
+  <input type="text" #mess> <label>messagio</label> <br>
+  <button style="background-color: orange;" (click)="invia(nome,tele,mess)"> invia</button>
 </div>
