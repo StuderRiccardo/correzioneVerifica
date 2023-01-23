@@ -1,6 +1,4 @@
 export class Annunci{
-    constructor(public nome: string, public telefono: string, public messaggio: string){
-        
-
+    constructor(public nome: string, public tele: string, public mess: string){
     }
 }
